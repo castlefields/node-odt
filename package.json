@@ -1,6 +1,6 @@
 {
-  "name": "odt",
-  "version": "1.1.1",
+  "name": "odt-old-archiver",
+  "version": "1.1.2",
   "description": "A node tool to work with OpenDocument text files.",
   "main": "index.js",
   "bin": {
@@ -18,14 +18,17 @@
     "odt",
     "odf"
   ],
-  "author": "Dominik Burgdörfer <dominik.burgdoerfer@mikanda.de>",
+  "author": {
+    "name": "Dominik Burgdörfer",
+    "email": "dominik.burgdoerfer@mikanda.de"
+  },
   "license": "BSD",
   "dependencies": {
     "unzip": "~0.1.7",
     "pipette": "~0.9.3",
     "async": "~0.2.9",
     "adm-zip": "~0.4.3",
-    "archiver": "~0.4.3",
+    "archiver": "0.4.8",
     "colors": "~0.6.0-1",
     "merge": "~1.1.1",
     "xmldom": "~0.1.16"
@@ -34,9 +37,32 @@
     "should": "~1.2.2",
     "mocha": "~1.12.0"
   },
-  "readmeFilename": "README.md",
   "directories": {
     "example": "examples",
     "test": "test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/node-odt/issues"
+  },
+  "homepage": "https://github.com/domachine/node-odt",
+  "_id": "odt-old-archiver@1.1.2",
+  "dist": {
+    "shasum": "446222646c918f14f84e7a4775df30a5ba4923eb",
+    "tarball": "http://registry.npmjs.org/odt-old-archiver/-/odt-old-archiver-1.1.2.tgz"
+  },
+  "_from": "odt-old-archiver@latest",
+  "_npmVersion": "1.3.22",
+  "_npmUser": {
+    "name": "mdamt",
+    "email": "mdamt@mdamt.net"
+  },
+  "maintainers": [
+    {
+      "name": "mdamt",
+      "email": "mdamt@mdamt.net"
+    }
+  ],
+  "_shasum": "446222646c918f14f84e7a4775df30a5ba4923eb",
+  "_resolved": "https://registry.npmjs.org/odt-old-archiver/-/odt-old-archiver-1.1.2.tgz",
+  "readme": "ERROR: No README data found!"
 }
