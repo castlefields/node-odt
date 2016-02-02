@@ -24,13 +24,13 @@
   },
   "license": "BSD",
   "dependencies": {
-    "unzip": "~0.1.7",
-    "pipette": "~0.9.3",
-    "async": "~0.2.9",
     "adm-zip": "~0.4.3",
     "archiver": "0.4.8",
+    "async": "~0.2.9",
     "colors": "~0.6.0-1",
     "merge": "~1.1.1",
+    "pipette": "~0.9.3",
+    "unzip2": "^0.2.5",
     "xmldom": "~0.1.16"
   },
   "devDependencies": {
